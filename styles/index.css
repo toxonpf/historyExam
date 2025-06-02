@@ -2,13 +2,16 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #121212; /* Темный фон */
-    color: #e0e0e0; /* Светлый текст */
+    background-color: #121212;
+    /* Темный фон */
+    color: #e0e0e0;
+    /* Светлый текст */
 }
 
 h1 {
     text-align: center;
-    color: #ffffff; /* Белый заголовок */
+    color: #ffffff;
+    /* Белый заголовок */
 }
 
 .tickets {
@@ -18,28 +21,34 @@ h1 {
 }
 
 .ticket {
-    background: #1e1e1e; /* Темный фон карточек */
-    border: 1px solid #333; /* Темная граница */
+    background: #1e1e1e;
+    /* Темный фон карточек */
+    border: 1px solid #333;
+    /* Темная граница */
     border-radius: 8px;
     padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Более темная тень */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    /* Более темная тень */
 }
 
 .ticket h2 {
     margin: 0 0 10px;
-    color: #4fc3f7; /* Голубой заголовок */
+    color: #4fc3f7;
+    /* Голубой заголовок */
 }
 
 .ticket ol {
     margin: 10px 0;
     padding-left: 20px;
-    color: #b0bec5; /* Светло-серый текст списка */
+    color: #b0bec5;
+    /* Светло-серый текст списка */
 }
 
 .ticket p {
     margin: 5px 0;
     font-style: italic;
-    color: #90a4ae; /* Серый текст преподавателя */
+    color: #90a4ae;
+    /* Серый текст преподавателя */
 }
 
 .qa {
@@ -48,12 +57,20 @@ h1 {
     background-color: #222;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
 
-.qa p {
-    margin: 5px 0;
-}
+    & p {
+        margin: 5px 0;
+    }
 
-.qa strong {
-    color: #4fc3f7; /* Голубой цвет для выделения */
+    & strong {
+        color: #4fc3f7;
+        /* Голубой цвет для выделения */
+    }
+
+    & p:last-child{
+        background-color: #2c2c2c;
+        padding: 5px;
+        border-radius: 0px 0px 5px 5px;
+        margin: 5px -10px -10px -10px;
+    }
 }
